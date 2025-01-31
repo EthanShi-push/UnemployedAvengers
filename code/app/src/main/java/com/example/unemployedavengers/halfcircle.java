@@ -18,7 +18,7 @@ public class HalfCircleDrawer extends JPanel {
         
         g2d.fillArc(x, y, diameter, diameter, 0, 180);
     }
-    
+        
     public static void main(String[] args) {
         JFrame frame = new JFrame("Half Circle Drawer");
         HalfCircleDrawer panel = new HalfCircleDrawer();
