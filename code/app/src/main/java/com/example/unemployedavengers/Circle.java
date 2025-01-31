@@ -10,6 +10,6 @@ public class Circle extends Shape {
 
     @Override
     public double getArea() {
-        return 3.14 * (x/2);
+        return (x / 2) * (x / 2) * 3.14;
     }
 }
